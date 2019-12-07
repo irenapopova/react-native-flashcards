@@ -4,7 +4,8 @@ import Button from './Button'
 import FlipCard from 'react-native-flip-card';
 
 
-const Quiz = () => {
+const Quiz = (props) => {
+    console.log(props)
 
     return (
         <View style={{ flex: 1, marginLeft: 20, marginRight: 20 }}>

@@ -1,6 +1,7 @@
 {
-    "response_code": 0,
-    "results": [{
+
+
+    "computerScience": [{
         "category": "Science: Computers",
         "type": "boolean",
         "difficulty": "easy",
@@ -70,87 +71,10 @@
         "question": "Linux was first created as an alternative to Windows XP.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
-    }]
-}
+    }],
 
-{
-    "response_code": 0,
-    "results": [{
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The HTML5 standard was published in 2014.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The common software-programming acronym &quot;I18N&quot; comes from the term &quot;Interlocalization&quot;.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The first computer bug was formed by faulty wires.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The very first recorded computer &quot;bug&quot; was a moth found inside a Harvard Mark II computer.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "All program codes have to be compiled into an executable file in order to be run. This file can then be executed on any machine.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "MacOS is based on Linux.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The open source program Redis is a relational database server.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The first dual-core CPU was the Intel Pentium D.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "The last Windows operating system to be based on the Windows 9x kernel was Windows 98.",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-    }, {
-        "category": "Science: Computers",
-        "type": "boolean",
-        "difficulty": "medium",
-        "question": "Android versions are named in alphabetical order.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-    }]
-}
 
-{
-    "response_code": 0,
-    "results": [{
+    "history": [{
         "category": "History",
         "type": "boolean",
         "difficulty": "easy",
@@ -168,13 +92,6 @@
         "category": "History",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "The Spitfire originated from a racing plane.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-    }, {
-        "category": "History",
-        "type": "boolean",
-        "difficulty": "easy",
         "question": "The United States was a member of the League of Nations.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
@@ -182,9 +99,9 @@
         "category": "History",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "Former United States Presidents John Adams and Thomas Jefferson died within hours of each other.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
+        "question": "United States President John F. Kennedy was assassinated during his presidential motorcade in Atlanta, Georgia on November 22nd, 1963.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
     }, {
         "category": "History",
         "type": "boolean",
@@ -210,6 +127,13 @@
         "category": "History",
         "type": "boolean",
         "difficulty": "easy",
+        "question": "Kublai Khan is the grandchild of Genghis Khan?",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "History",
+        "type": "boolean",
+        "difficulty": "easy",
         "question": "The French Kingdom helped the United States gain their independence over Great Britain during the Revolutionary War.",
         "correct_answer": "True",
         "incorrect_answers": ["False"]
@@ -220,5 +144,79 @@
         "question": "Thomas Crapper was a plumber who invented the flushing toilet.",
         "correct_answer": "False",
         "incorrect_answers": ["True"]
+    }],
+
+
+
+    "geography": [{
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "A group of islands is called an &#039;archipelago&#039;.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Greenland is covered with grass and Iceland covered with ice.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Vatican City is a country.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "San Marino is the only country completely surrounded by another country.",
+        "correct_answer": "False",
+        "incorrect_answers": ["True"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Ottawa is the capital of Canada.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "There are no deserts in Europe.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "California is larger than Japan.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Tokyo is the capital of Japan.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Nova Scotia is on the east coast of Canada.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
+    }, {
+        "category": "Geography",
+        "type": "boolean",
+        "difficulty": "easy",
+        "question": "Rhode Island is actually located on the US mainland, despite its name.",
+        "correct_answer": "True",
+        "incorrect_answers": ["False"]
     }]
 }

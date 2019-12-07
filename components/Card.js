@@ -3,10 +3,10 @@ import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity } from 
 
 
 
-const Card = ({ text, navigate }) => {
+const Card = ({ text, navigate, ...props }) => {
 
     return (
-        <TouchableOpacity onPress={() => navigate('Quiz', { name: 'Jane' })}>
+        <TouchableOpacity onPress={() => navigate('Quiz', { questions: ["asd", "be"] })}>
             <View style={styles.card}><Text style={styles.text}>{text}</Text></View>
         </TouchableOpacity>
 
