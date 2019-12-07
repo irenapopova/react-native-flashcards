@@ -20,12 +20,14 @@ const DATA = [
     },
 ];
 
-export default ({ navigation }) => {
-
+export default ({ navigation, screenProps }) => {
+    const { categories } = screenProps;
+    console.log(screenProps)
     return (
         <SafeAreaView style={styles.container}>
+
             <FlatList
-                data={dataArr}
+                data={categories || []}
                 renderItem={({ item }) => <Card navigate={navigation.navigate} text={item.title} />}
                 keyExtractor={item => item.key}
             />
@@ -36,7 +38,7 @@ export default ({ navigation }) => {
 
 const styles = {
     container: {
-        marginTop: 10,
+        marginTop: 80,
     },
     card: {
 

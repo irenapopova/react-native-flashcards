@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, Text, View, StatusBar } from 'react-native';
 import AddCard from './components/AddCard';
 import AddDeck from './components/AddDeck';
@@ -9,17 +9,17 @@ import { Ionicons } from '@expo/vector-icons';
 import { createStackNavigator } from 'react-navigation-stack'
 import Quiz from './components/Quiz';
 
-const AppStatusBar = ({ ...props }) => {
+/* const AppStatusBar = ({ ...props }) => {
   return (
     <View style={{ backgroundColor: "orange", height: 120 }}>
       <StatusBar translucent backgroundColor="green" {...props} />
     </View>
   )
-}
+} */
 
 const TabNavigator = createBottomTabNavigator({
   NewDeck: AddDeck,
-  Decks: DeckDetail,
+  Decks: { screen: (props) => <DeckDetail {...props} /> },
 
 }, {
   defaultNavigationOptions: ({ navigation }) => ({
@@ -82,10 +82,12 @@ const AppContainer = createAppContainer(Stack);
 
 
 const App = () => {
+  const [categories, setCategories] = useState(
+    [{ key: 1, title: "Computer Science" }, { key: 2, title: "History" }, { key: 3, title: "Geography" }, { key: 4, title: "music" },]
+  )
   return (
     <View style={{ flex: 1 }}>
-      <AppStatusBar />
-      <AppContainer />
+      <AppContainer screenProps={{ categories: categories }} />
     </View>
   )
 }

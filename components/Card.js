@@ -1,13 +1,16 @@
 import React from 'react'
-import { StyleSheet, Text, View, TextInput, Button, ScrollView, TouchableWithoutFeedback } from 'react-native';
+import { StyleSheet, Text, View, TextInput, ScrollView, TouchableOpacity } from 'react-native';
+
 
 
 const Card = ({ text, navigate }) => {
 
     return (
-        <TouchableWithoutFeedback onPress={() => navigate('Quiz', { name: 'Jane' })}>
+        <TouchableOpacity onPress={() => navigate('Quiz', { name: 'Jane' })}>
             <View style={styles.card}><Text style={styles.text}>{text}</Text></View>
-        </TouchableWithoutFeedback>
+        </TouchableOpacity>
+
+
     )
 }
 
